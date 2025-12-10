@@ -40,7 +40,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onProductClick }) => {
         title="Join Soho Friends"
         description="Join Soho Friends and get 15% off full-price products, as well as a further 20% off sale prices and free delivery on small items all year round. Plus, reduced rates on Soho House bedrooms and more."
         buttonText="Find out more"
-        image="https://images.unsplash.com/photo-1595877868512-1482834b3e8c?q=80&w=2000&auto=format&fit=crop"
+        image="/soho friends.avif"
       />
 
       <HelpGrid />
