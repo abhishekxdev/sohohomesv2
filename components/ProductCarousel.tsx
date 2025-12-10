@@ -26,14 +26,14 @@ const products: Product[] = [
     name: "Pair of Molina Dining Chairs, Skylar Print, Grey Blue, Velvet",
     regularPrice: "£1,795",
     memberPrice: "£1,526",
-    image: "https://images.unsplash.com/photo-1544457078-69411a1b343e?q=80&w=800&auto=format&fit=crop"
+    image: "/pairofmolina.avif"
   },
   {
     id: 4,
     name: "Murcell Oval Coffee Table",
     regularPrice: "£6,995",
     memberPrice: "£5,946",
-    image: "https://images.unsplash.com/photo-1532323544230-7191fd510c59?q=80&w=800&auto=format&fit=crop"
+    image: "/murcell.avif"
   }
 ];
 
