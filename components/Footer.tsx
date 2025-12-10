@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Newsletter Box */}
-        <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-1">
+        <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-2">
           <div className="md:w-1/2">
             <img
               src="/newsletter.avif"
