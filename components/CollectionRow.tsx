@@ -3,9 +3,9 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const collections = [
   { name: 'Beds & Mattresses', img: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?q=80&w=1000&auto=format&fit=crop' },
-  { name: 'Table Lamps', img: '/tablelamp.png' },
-  { name: 'Cushions', img: '/cushions.png' },
-  { name: 'Rugs & Runners', img: '/rugs.png' },
+  { name: 'Table Lamps', img: '/tablelamp.jpg' },
+  { name: 'Cushions', img: '/cushions.jpg' },
+  { name: 'Rugs & Runners', img: '/rugs.jpg' },
 ];
 
 export const CollectionRow: React.FC = () => {

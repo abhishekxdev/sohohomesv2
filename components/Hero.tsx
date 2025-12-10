@@ -4,7 +4,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       className="relative h-[85vh] w-full overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/soohohero.png')" }}
+      style={{ backgroundImage: "url('/soohohero.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/20"></div>
 
