@@ -32,21 +32,24 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Newsletter Box */}
-        <div className="bg-[#efefef] p-6 flex flex-col items-start relative overflow-hidden group">
-           <img 
-             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=400&auto=format&fit=crop"
-             className="w-24 h-24 object-cover absolute top-0 left-0 opacity-20"
-             alt="bg"
-           />
-           <div className="relative z-10 w-full">
-               <h3 className="font-serif text-lg mb-2">Our newsletter</h3>
-               <p className="text-xs text-gray-600 mb-6 leading-relaxed">
-                   Be the first to hear about new collections, interiors advice, and exclusive promotions
-               </p>
-               <button className="w-full bg-transparent border border-gray-400 text-black py-3 rounded-full text-xs uppercase tracking-widest hover:border-black transition-colors">
-                   Subscribe
-               </button>
-           </div>
+        <div className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm flex flex-col md:flex-row md:col-span-2 lg:col-span-1">
+          <div className="md:w-1/2">
+            <img
+              src="/newsletter.avif"
+              alt="Bedroom"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="md:w-1/2 p-8 flex flex-col justify-center gap-4">
+            <h3 className="font-serif text-2xl text-gray-900">Our newsletter</h3>
+            <p className="text-base text-gray-800 leading-relaxed">
+              Be the first to hear about new collections, interiors advice,
+              and exclusive promotions
+            </p>
+            <button className="mt-2 inline-flex items-center justify-center px-8 py-3 rounded-full border-2 border-gray-900 text-base font-semibold text-gray-900 transition-colors hover:bg-gray-100">
+              Subscribe
+            </button>
+          </div>
         </div>
 
       </div>
